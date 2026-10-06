@@ -52,9 +52,3 @@ Des insectes géants envahissent la Terre, et tu es le dernier soldat capable de
 
 
 
-## Sources et crédits
-
-*À compléter : sources consultées, assets utilisés et leurs licences.*
-
-- Inspiration : *Metal Slug* (SNK, 1996). Aucun élément graphique ni sonore du jeu original n'est utilisé.
-- Notes du cours 420-0SW : https://nbourre.github.io/0sw_notes_cours/
