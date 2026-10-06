@@ -1,14 +1,12 @@
-# Opération Insecticide
-
-> Titre provisoire
+# Call of insects
 
 **Créateur :** Arthur Durand Nuekumo Simo
-**Cours :** 420-0SW – Programmation jeux et multimédias, Cégep de Shawinigan
-**Moteur :** Godot 4
+**Cours :** 420-0SW – Programmation jeux et multimédias
+**Moteur :** Godot 4.7.2
 
-## Concept
+## Description
 
-Des insectes géants envahissent la Terre, et tu es le dernier soldat capable de les arrêter. *Opération Insecticide* est un jeu de tir à défilement horizontal (*run and gun*) inspiré de *Metal Slug* : tu avances dans chaque mission, tu élimines des vagues d'insectes avec tes armes et tes grenades, tu libères les humains prisonniers de cocons, puis tu affrontes la Reine, le boss de fin.
+Des insectes géants envahissent la Terre, et tu es le dernier soldat capable de les arrêter. Call of insects est un jeu de tir à défilement horizontal (*run and gun*) inspiré de *Metal Slug* : tu avances dans chaque mission, tu élimines des vagues d'insectes avec tes armes et tes grenades, tu libères les humains prisonniers de cocons, puis tu affrontes la Reine, le boss de fin.
 
 ## Objectifs du jeu
 
@@ -21,12 +19,12 @@ Des insectes géants envahissent la Terre, et tu es le dernier soldat capable de
 
 | Action | Clavier | Manette / borne |
 |---|---|---|
-| Se déplacer | ← → | Joystick |
-| Viser en haut | ↑ | Joystick haut |
-| S'accroupir / viser en bas (en saut) | ↓ | Joystick bas |
-| Sauter | *à définir* | *à définir* |
-| Tirer / couteau (au corps à corps) | *à définir* | *à définir* |
-| Lancer une grenade | *à définir* | *à définir* |
+| Se déplacer | ← → / A D | Joystick |
+| Viser en haut | ↑ / W| Joystick haut |
+| S'accroupir / viser en bas (en saut) | ↓ / S | Joystick bas |
+| Sauter | F | *à définir* |
+| Tirer / couteau (au corps à corps) | T | *à définir* |
+| Lancer une grenade | G | *à définir* |
 | Pause | P | *à définir* |
 | Couper le son | Ctrl + M | — |
 | Informations de débogage | F12 | — |
@@ -44,12 +42,6 @@ Des insectes géants envahissent la Terre, et tu es le dernier soldat capable de
 | Mante religieuse | Mini-boss, combat au corps à corps |
 | La Reine | Boss final, plusieurs phases, pond des larves |
 
-## Armes
-
-- **Pistolet** : munitions infinies.
-- **Mitrailleuse, roquettes, lance-insecticide, fusil à pompe** : armes spéciales à munitions limitées, trouvées dans des caisses ou données par les otages libérés.
-- **Grenades** : en nombre limité.
-
 ## Concepts et algorithmes
 
 *Cette section sera complétée au fil du développement.*
@@ -58,19 +50,7 @@ Des insectes géants envahissent la Terre, et tu es le dernier soldat capable de
 - **Boids** : déplacement en essaim des guêpes et des criquets (algorithme fait sans bibliothèque)
 - **A\*** : recherche de chemin des termites sous terre (algorithme fait sans bibliothèque)
 
-## Structure du dépôt
 
-```
-.
-├── readme.md   Ce document
-└── src/        Projet Godot
-```
-
-## Lancer le projet
-
-1. Installer [Godot 4](https://godotengine.org/download).
-2. Dans Godot, ouvrir le fichier `src/project.godot`.
-3. Appuyer sur **F5** pour lancer le jeu.
 
 ## Sources et crédits
 
